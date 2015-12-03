@@ -7,8 +7,6 @@ then
 fi
 
 # The rest of my fun git aliases
-alias gl='git pull --prune'
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gp='git push origin HEAD'
 alias gd='git diff'
 alias gc='git commit'
@@ -22,3 +20,7 @@ alias master='git checkout master'
 alias gstat='git status'
 alias gpo='git push origin'
 alias gpom='git push origin master'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias gl1='gl -1'
+alias gl3='gl -3'
+alias gl5='gl -5'
